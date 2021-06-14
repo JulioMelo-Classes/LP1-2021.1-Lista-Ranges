@@ -20,10 +20,10 @@ Para compilar e executar use um dos formatos que seguem.
 ## Usando cmake
 Nesta lista, todos os exercícios serão de implementação de função, todos os testes estão no arquivo `src/main.cpp`, você pode disabilitar os testes se achar necessário.
 
-A compilação e execução das questões pode ser feita usando cmake:
+A compilação e execução das questões pode ser feita usando cmake, por exemplo se quisermos implementar a questão copy:
 
 ```
-cd <diretorio_da_questão>
+cd copy
 mkdir build
 cd build
 cmake ..
@@ -42,8 +42,9 @@ No windows:
 
 ## Usando compilação manual com g++
 
-É possível compilar o programa "na mão" usando o g++, para isso use o comando abaixo a partir do diretório da questão específica:
+É possível compilar o programa "na mão" usando o g++, para isso use o comando abaixo a partir do diretório da questão específica, mais uma vez usando a questão copy como exemplo:
 ```
+cd copy
 g++ ../test_manager/src/test_manager.cpp src/main.cpp -I./include -I../test_manager/include -o run_tests
 ```
 Neste caso, independente se é windows ou linux, o executável é gerado no diretório corrente, bastando executá-lo depois.
