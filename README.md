@@ -6,7 +6,7 @@ irão atualizar os diretórios das suas questões fazendo o download novamente d
 
 # Resolvendo as questões
 
-Inicialmente copie o diretório contendo o test_manager para seu repositório, após isso copie o diretório contendo a questão que você vai resolver. O seu repositório deve 
+Inicialmente copie o diretório **test_manager** para seu repositório, após isso copie o diretório contendo a questão que você vai resolver. O seu repositório deve 
 ficar da seguinte forma:
 
 ```
@@ -48,4 +48,3 @@ cd copy
 g++ ../test_manager/src/test_manager.cpp src/main.cpp -I./include -I../test_manager/include -o run_tests
 ```
 Neste caso, independente se é windows ou linux, o executável é gerado no diretório corrente, bastando executá-lo depois.
-
